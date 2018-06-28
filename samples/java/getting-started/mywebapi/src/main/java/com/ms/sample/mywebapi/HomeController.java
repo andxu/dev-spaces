@@ -10,9 +10,4 @@ public class HomeController {
     public String index() {
         return "Hello from Spring Boot!";
     }
-
-    @RequestMapping("/version")
-    public String version() {
-        return "0.1.0";
-    }
 }   
